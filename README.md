@@ -1,2 +1,6 @@
-# Stroke-Prediction-Classification
-In this repo you shall find the jupyter notebooks of the different phases of the project for Introduction to Data Science course I took in Fall 2022 quarter at Seattle University.
+# Stroke-Risk-Classification
+This project represents my first hands-on exploration of machine learning through stroke-risk prediction, using it as a case study to evaluate and compare classification model efficiency. Aligned with IBM’s Data Science Methodology, I implemented a complete Python workflow including data preprocessing, feature engineering, class imbalance correction, model training, and evaluation.
+
+Key steps included undersampling the majority class to address imbalance, feature extraction (age, glucose levels), and scaling with StandardScaler to prepare data for model development. I evaluated three classification algorithms—K-Nearest Neighbors (KNN), Decision Trees, and Random Forests—using both hold-out validation and 10-fold cross-validation for reliable performance assessment.
+
+The KNN model achieved the best results, with a 73% mean accuracy and improved F1-score, precision, and recall, driven by both preprocessing and feature selection. Special attention was placed on reducing false negatives, critical for medical decision support. Additionally, Decision Tree visualizations were generated to enhance model explainability. This project provided foundational experience in building machine learning pipelines for real-world health applications, emphasizing model transparency, performance trade-offs, and the importance of rigorous evaluation.
